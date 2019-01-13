@@ -26,8 +26,7 @@ $('#spanishPhrase').on('keypress', function (e) {
    });
    
 $('#spanishPhrase').on('input',function(e){
-    $("#downloadLink").attr("href", "https://audio1.spanishdict.com/audio?detect_lang=true&text=+$('#spanishPhrase').val().replace(/\s+/g, '-').toLowerCase()+&format=mp3");
-    $("#downloadLink").attr("download", "$('#spanishPhrase').val()");
+    $("#downloadLink").attr("href", "https://audio1.spanishdict.com/audio?detect_lang=true&text="+$('#spanishPhrase').val().replace(/\s+/g, '-').toLowerCase()+"&format=mp3");
 });
 </script>
 
