@@ -1,7 +1,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<input type="text" id="spanishPhrase"> <button onclick="speakSpanish()">Click here to hear spanish.</button>
-<a href="https://audio1.spanishdict.com/audio?detect_lang=true&text=oso&format=mp3" id="downloadLink" target="_blank" rel="noopener noreferrer">Download MP3</a>
+<input type="text" id="spanishPhrase"> 
+
+<a href="https://audio1.spanishdict.com/audio?detect_lang=true&text=oso&format=mp3" id="downloadLink" target="_blank" rel="noopener noreferrer">Listen and Download MP3</a>
  
 <script>
  
