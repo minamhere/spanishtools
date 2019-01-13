@@ -1,4 +1,5 @@
 
+<button onclick="speakSpanish()">Click here to hear spanish.</button>
  
 <script>
 function speakSpanish() { 
