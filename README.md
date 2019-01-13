@@ -8,6 +8,7 @@
 <script>
  
 function speakSpanish() { 
+
    var val = $('#spanishPhrase').val();
    if (val) 
         location="https://audio1.spanishdict.com/audio?detect_lang=true&text="+val.replace(/\s+/g, '-').toLowerCase()+"&format=mp3";
@@ -20,7 +21,7 @@ $('#spanishPhrase').on('keypress', function (e) {
             $(this).attr("disabled", "disabled");
 
             //Do Stuff, submit, etc..
-            speakSpanish();
+            $("downloadLink").trigger("click");
 
             //Enable the textbox again if needed.
             $(this).removeAttr("disabled");
