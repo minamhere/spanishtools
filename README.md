@@ -1,1 +1,3 @@
-[Click here to listen to a spanish phrase](javascript:(function() { var val= prompt("Enter Spanish phrase",""); if (val)         location="https://audio1.spanishdict.com/audio?detect_lang=true&text="+val.replace(/\s+/g, '-').toLowerCase()+"&format=mp3";})())
+[Click here to listen to a spanish phrase](www.google.com)
+
+javascript:(function() { var val= prompt("Enter Spanish phrase",""); if (val)         location="https://audio1.spanishdict.com/audio?detect_lang=true&text="+val.replace(/\s+/g, '-').toLowerCase()+"&format=mp3";})())
