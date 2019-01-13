@@ -1,5 +1,6 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<input type="text" name="spanishPhrase">
+<input type="text" id="spanishPhrase">
 
 <button onclick="speakSpanish()">Click here to hear spanish.</button>
  
@@ -8,8 +9,8 @@
 function speakSpanish() { 
    //var val= prompt("Enter Spanish phrase",""); 
    var val = $('#spanishPhrase').val();
-    if (val) 
+   if (val) 
         location="https://audio1.spanishdict.com/audio?detect_lang=true&text="+val.replace(/\s+/g, '-').toLowerCase()+"&format=mp3";
 }
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
