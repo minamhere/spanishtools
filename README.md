@@ -1,8 +1,4 @@
-<button type="button"
-onclick="speakSpanish()">
-Click me to display Date and Time.</button>
 
-<p id="demo"></p>
  
 <script>
 function speakSpanish() { 
