@@ -1,5 +1,5 @@
 
-<input type="text" name="spanishPhrase"></input>
+<input type="text" name="spanishPhrase">
 
 <button onclick="speakSpanish(spanishPhrase.value)">Click here to hear spanish.</button>
  
