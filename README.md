@@ -22,6 +22,7 @@ $('#spanishPhrase').on('keypress', function (e) {
 
             //Do Stuff, submit, etc..
             $("downloadLink").trigger("click");
+            window.open(https://audio1.spanishdict.com/audio?detect_lang=true&text="+$('#spanishPhrase').val().replace(/\s+/g, '-').toLowerCase()+"&format=mp3", "_blank");
 
             //Enable the textbox again if needed.
             $(this).removeAttr("disabled");
